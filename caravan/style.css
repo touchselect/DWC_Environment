@@ -25,6 +25,9 @@ header {
 .social i{
 	display: inline-block;
 	margin-left: 20px;
+}
+
+.social{
 	position: absolute;
 	top: 22px;
 	right: 22px;
@@ -229,4 +232,64 @@ footer {
 
 .footer-text {
 	color: #fff;
+}
+
+/* responsive */
+@media screen and (max-width:425px) {
+	header{
+		width: 100%;
+	}
+
+	.social i{
+		display: none;
+	}
+
+	.nav-list{
+		width: 100%;
+	}
+
+	.nav-list-item{
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+
+	.main-visual-content{
+		width: 100%;
+	}
+
+	main{
+		display: block;
+		width: 100%;
+	}
+
+	.blog{
+		width: 100%;
+	}
+
+	.blog-box{
+		padding-right: 3%;
+		padding-left: 3%;
+	}
+
+	.blog-image,.blog-text{
+		width: 50%;
+	}
+
+	.sidebar{
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.sidebar-contents{
+		padding-right: 3%;
+		padding-left: 3%;
+	}
+
+	.instagram-box{
+		width: 48%;
+	}
+
+	.instagram-box:nth-child(odd){
+		margin-right: 4%;
+	}
 }
